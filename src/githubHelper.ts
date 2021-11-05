@@ -35,7 +35,7 @@ export default class GithubHelper {
     this.gitlabHelper = gitlabHelper;
     // regex for converting user from GitLab to GitHub
     this.userProjectRegex = utils.generateUserProjectRegex();
-    this.delayInMs = 2000;
+    this.delayInMs = 30000;
     this.useIssuesForAllMergeRequests = useIssuesForAllMergeRequests;
   }
 
